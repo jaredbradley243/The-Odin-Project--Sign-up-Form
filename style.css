@@ -1,16 +1,16 @@
 @font-face {
   font-family: "Quintessential";
-  src: url("/assets/Quintessential-Regular.ttf") format("truetype");
+  src: url("assets/Quintessential-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Cipher";
-  src: url("/assets/IlluminatiNoviceCipher-8qlA.ttf") format("truetype");
+  src: url("assets/IlluminatiNoviceCipher-8qlA.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Cipher2";
-  src: url("/assets/LuciusCipher-3zYvy.ttf") format("truetype");
+  src: url("assets/LuciusCipher-3zYvy.ttf") format("truetype");
 }
 
 /* Reset styles */
