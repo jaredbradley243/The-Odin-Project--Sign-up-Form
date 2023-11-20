@@ -9,6 +9,9 @@ The goal of this project was to design and build a sign-up form for a fictitious
 ## Preview
 
 ![image](https://github.com/jaredbradley243/The-Odin-Project--Sign-up-Form/assets/107898107/9e34404c-2589-4bf9-ba39-f7ee06178d47)
+![image](https://github.com/jaredbradley243/The-Odin-Project--Sign-up-Form/assets/107898107/8d55df74-ad66-4dd1-b95d-47e924488fb1)
+![image](https://github.com/jaredbradley243/The-Odin-Project--Sign-up-Form/assets/107898107/8ac8ab7f-3f57-47e3-bded-933cfadeb6a5)
+
 
 ### Technologies:
 
