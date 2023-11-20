@@ -8,10 +8,9 @@ This project is based on the [Sign-up Form assignment](https://www.theodinprojec
 The goal of this project was to design and build a sign-up form for a fictitious organization or business.
 ## Preview
 
-![image](https://github.com/jaredbradley243/The-Odin-Project--Sign-up-Form/assets/107898107/9e34404c-2589-4bf9-ba39-f7ee06178d47)
-![image](https://github.com/jaredbradley243/The-Odin-Project--Sign-up-Form/assets/107898107/8d55df74-ad66-4dd1-b95d-47e924488fb1)
-![image](https://github.com/jaredbradley243/The-Odin-Project--Sign-up-Form/assets/107898107/8ac8ab7f-3f57-47e3-bded-933cfadeb6a5)
-
+![image](https://github.com/jaredbradley243/The-Odin-Project--Sign-up-Form/assets/107898107/cf23d788-a840-448a-a00c-e5ab6c1fdf51)
+![image](https://github.com/jaredbradley243/The-Odin-Project--Sign-up-Form/assets/107898107/06fc01d6-8bb1-47c2-80fc-4d7291801160)
+![image](https://github.com/jaredbradley243/The-Odin-Project--Sign-up-Form/assets/107898107/ff2c1b0c-3889-4961-9589-3f0c803e0fb3)
 
 ### Technologies:
 
