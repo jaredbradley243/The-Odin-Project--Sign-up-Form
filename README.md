@@ -25,7 +25,7 @@ The goal of this project was to design and build a sign-up form for a fictitious
 * Github ![icons8-github](https://user-images.githubusercontent.com/107898107/211131605-60836c1f-9fe5-4567-a6f1-6afb2dfce9b6.svg)
 
 ### Outcome :ballot_box_with_check:
-I successfully created a sign-up form for the Illuminati, featuring a complete dark theme, advanced CSS for form input, and CSS animations using vanilla JavaScript, HTML, and CSS.
+I successfully created a sign-up form for the Illuminati, featuring a complete dark theme and advanced form input interactions using vanilla JavaScript, HTML, and CSS.
 
 | Website | Link | 
 | ------------- | ------------- | 
