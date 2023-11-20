@@ -1,0 +1,278 @@
+@font-face {
+  font-family: "Quintessential";
+  src: url("/assets/Quintessential-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Cipher";
+  src: url("/assets/IlluminatiNoviceCipher-8qlA.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Cipher2";
+  src: url("/assets/LuciusCipher-3zYvy.ttf") format("truetype");
+}
+
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
+}
+
+/* Global styles */
+body,
+button {
+  font-family: "Quintessential", serif;
+  /* overflow: hidden; */
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+button {
+  color: #fff;
+}
+
+a {
+  color: #fff;
+}
+
+:root.dark {
+  /* BG COLORS */
+  --description-container-bg-color: #36201f;
+  --form-container-bg-color: #3e221f;
+  --call-to-action-container-bg-color: #36201f;
+  --call-to-action-button-bg-color: #192222;
+
+  /* Font Colors */
+  --general-font-color: #8d7861;
+  --call-to-action-button-font-color: #bea284;
+}
+
+:root.light {
+  /* BG COLORS */
+  --description-container-bg-color: #49311daa;
+  --form-container-bg-color: #5c3e25aa;
+  --call-to-action-container-bg-color: #49311daa;
+  --call-to-action-button-bg-color: #1f2b2b;
+
+  /* Font Colors */
+  --general-font-color: #333;
+  --call-to-action-button-font-color: white;
+}
+
+/* Container */
+#container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+#image-logo-container {
+  /* flex: 2.108; */
+  /* background-image: url("assets/SecretSociety.png"); */
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#image-logo-container img {
+  height: 100vh;
+}
+
+#content-container {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+}
+
+#description-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  justify-content: flex-end;
+  padding-bottom: 100px;
+  background-color: var(--description-container-bg-color);
+  color: var(--general-font-color);
+  /* background-color: #3f2713aa; */
+  /* background-color: #3d230eaa; */
+}
+
+#description {
+  font-size: 175%;
+  font-weight: 600;
+  /* padding: 100px; */
+  padding: 0 100px;
+  text-align: justify;
+}
+
+#form-container {
+  flex: 1;
+  background-color: var(--form-container-bg-color);
+  color: var(--general-font-color);
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.107);
+}
+
+#form-headline {
+  font-size: 32px;
+  margin: 50px 100px;
+  font-size: 175%;
+  font-weight: 600;
+  text-align: justify;
+}
+
+form {
+  margin: 50px 100px;
+}
+
+input {
+  font-size: 1rem;
+  width: 100%;
+  height: 45px;
+  background: transparent;
+  padding: 0 5px;
+  border: none;
+  outline: none;
+  color: var(--general-font-color);
+}
+
+.form-input-wrapper {
+  position: relative;
+  border-bottom: 2px solid #4d4545;
+  margin-bottom: 37px;
+  width: 20%;
+  min-width: 350px;
+}
+
+.form-focus-input {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.form-focus-input::after {
+  font-size: 20px;
+  line-height: 0.75;
+  display: block;
+  width: 100%;
+  content: attr(data-placeholder);
+  position: absolute;
+  top: 16px;
+  left: 0px;
+  padding-left: 5px;
+  transition: all 0.4s;
+}
+
+.form-focus-input::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  transition: all 0.4s;
+  background: -webkit-linear-gradient(left, #53614f, #6b4231);
+}
+
+input:focus + .form-focus-input::after {
+  top: -20px;
+}
+
+.has-value + .form-focus-input::after {
+  top: -20px;
+}
+
+input:focus + .form-focus-input::before {
+  width: 100%;
+}
+
+.has-value + .form-focus-input::before {
+  width: 100%;
+}
+
+#call-to-action-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  background-color: var(--call-to-action-container-bg-color);
+}
+
+#call-to-action-button {
+  align-self: flex-start;
+}
+
+button {
+  background-color: var(--call-to-action-button-bg-color);
+  color: var(--call-to-action-button-font-color) !important;
+  border-radius: 10px;
+  font-size: 130%;
+  color: white;
+  padding: 8px 50px 8px 50px;
+  margin: 50px 100px;
+  border: 0;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.217);
+}
+
+button:hover {
+  background-color: #182020;
+  transform: scale(1.01);
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.input-fade-out {
+  animation: fadeOut 2s forwards;
+}
+
+.input-fade-in {
+  animation: fadeIn 2s forwards;
+}
+
+#confirmation-message {
+  display: none;
+  margin: 50px 100px;
+  font-size: 32px;
+}
+
+#NSA-Link {
+  margin: 0px 0px 20px 100px;
+}
+
+.material-symbols-outlined {
+  font-size: 40px !important;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  font-variation-settings: "OPSZ" 40;
+  color: pink;
+}
+
+@media screen and (max-width: 720px) {
+  #container {
+    flex-direction: column;
+  }
+}
